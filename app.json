@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "medifyit",
+    "slug": "medifyit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/app-icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#199A8E"
+    },
+    "ios": {
+      "supportsTablet": true
+      
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/app-icon.png",
+        "backgroundColor": "#199A8E"
+      },
+      "package": "com.rounaker.medifyit"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a98f3f21-aa97-48c5-be2a-dd4578308ad0"
+      }
+    }
+  }
+}
